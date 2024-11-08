@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Loading</title>
+    <style>
+        /* Mengatur body agar gambar bisa ditampilkan penuh */
+        body, html {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #f8f9fa;
+            overflow-y: hidden;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Halaman Loading (menampilkan gambar) -->
+    <img src="https://i.ibb.co.com/HGLkpmp/Screenshot-20241108-164008-Tunaiku.jpg" alt="Tunaiku Loading">
+
+    <script>
+        // Mengalihkan halaman setelah 2 detik
+        setTimeout(function() {
+            // Ganti URL di sini dengan halaman tujuan setelah loading
+            window.location.href = "halaman-selanjutnya.html"; // Ganti dengan URL halaman selanjutnya
+        }, 2000); // 2000 ms = 2 detik
+    </script>
+
+</body>
+</html>
